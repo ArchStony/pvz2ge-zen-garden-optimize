@@ -1,0 +1,23 @@
+{
+  "uuid": "archstony.zen-garden-expand",
+  "name": "禅境花园优化",
+  "version": "1.0.0",
+  "packFormatVersion": 1,
+  "apiVersion": 2,
+  "gameVersion": "0.16.1",
+  "gpNextVersion": ">=1.5.5",
+  "capabilities": [
+    "js"
+  ],
+  "js": {
+    "entry": "scripts/main.js",
+    "reloadable": true,
+    "requiresTrustedExecution": true,
+    "setupTimeoutMs": 15000,
+    "importTimeoutMs": 5000,
+    "cleanupTimeoutMs": 2000
+  },
+  "requiredGpNextFeatures": [
+    "experimental.jsModding"
+  ]
+}

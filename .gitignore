@@ -1,0 +1,5 @@
+dist/
+logs/
+STATUS.md
+scripts/__pycache__/
+*.pyc
